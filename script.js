@@ -56,7 +56,7 @@ function numberGuess(user_num) {
             num.focus();
         }
         else {
-            msgContainer.textContent = "too less !!";
+            msgContainer.textContent = "too low !!";
             num.value = "";
             num.focus();
         }
