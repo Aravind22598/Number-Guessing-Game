@@ -32,7 +32,7 @@ guessBtn.addEventListener("click", function () {
 
 var chances = 0;
 var comp_number = Math.floor(Math.random() * 100);  // this will generate a random number from 1 to 100
-console.log("Computer guessed number is ", comp_number);
+//console.log("Computer guessed number is ", comp_number);
 function numberGuess(user_num) {
     //    console.log("recieved number is:",user_num);
 
